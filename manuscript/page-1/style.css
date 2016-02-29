@@ -11,8 +11,8 @@ body{
 
 .subhead {
   text-transform: uppercase;
-  border-bottom: 2px solid #2f2f2f;
-  border-top: 2px solid #2f2f2f;
+  border-bottom: 2px solid #78D89B;
+  border-top: 2px solid #78D89B;
   padding: 1.2vw 0 1.2vw 0;
   font-size: 3vw;
   height: 5vh;
@@ -31,6 +31,8 @@ body{
 .container {
   background:#78D89B;
   height: 50vh;
+  margin:0;
+  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
