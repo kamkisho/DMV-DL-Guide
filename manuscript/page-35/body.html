@@ -1,45 +1,34 @@
-<header>
-  <h1>
-    <span class="header-subtitile">PURE CSS</span>
-    <p class="header-title">
-      Parallel park
-    </p>
-  </h1>
-</header>
-<main>
-  <div class="car-line park">
-    <div class="car car-red">
-      <div class="car-front"></div>
-      <div class="car-middle"></div>
-      <div class="car-back"></div>
-    </div>
-    <span class="vacancy passo1"></span>
-    <div class="car car-blue">
-      <div class="car-front"></div>
-      <div class="car-middle"></div>
-      <div class="car-back"></div>
-    </div>
-  </div>
-  <div class="car-line">
-    <input class="passo1" id="passo1" type="checkbox" /><input class="passo2" id="passo2" type="checkbox" /><input class="passo3" id="passo3" type="checkbox" /><input class="passo4" id="passo4" type="checkbox" />
-    <div class="car car-silver">
-      <div class="car-front"></div>
-      <div class="car-middle"></div>
-      <div class="car-back"></div>
-    </div>
-    <div class="breadcrumbs breadcrumbs-flat">
-      <label class="passo1-label" for="passo1">start</label><label class="passo2-label" for="passo2">step2</label><label class="passo3-label" for="passo3">step 3</label><label class="passo4-label" for="passo4">finish</label>
-    </div>
-    <div class="congrats">
-      <h2 class="congrats-title">
-        Congratulations!
-      </h2>
-      <h3 class="congrats-subtitle">
-        You are now a parallel park master.
-      </h3>
-      <p class="congrats-text">
-        <a class="congrats-link" href="https://twitter.com/intent/tweet?text=I liked this &#39;Pure CSS Parallel Park&#39; on @codepen. Take a look and discover how to parallel park. http://codepen.io/teles/full/gbKeLR" target="_blank" title="And show them how to perfect parallel park.">Share this pen with your friends on twitter. &#8599;</a>
+  <div class="leaf flex">
+    <div class="inner justify ">
+      <p>
+        <!-- Why is this boldface? Why a comma after zone. -->
+        <b> In a work zone,</b> the lives of highway construction workers depend on drivers like you obeying the posted speed limits. If you are convicted of exceeding the speed limit in a highway work zone, you may be fined up to $500. Remember, the color orange marks a work zone and means slow down and be alert.</p>
+      <p>
+        <!-- Why is this boldface, capitalized words?. -->
+        <b>Rough Road, Bump, or Uneven Lanes:</b>
+    
+        <!-- Why inline style when you can use classes/css? Why alt values are capitalized? Why hardcoding width:150px, height:50px ? -->
+        <img src="https://raw.githubusercontent.com/kamkisho/DMV-DL-Guide/master/assets/images/rough_bump_uneven.jpg" alt="Rough Bump Uneven Road" style="width:150px;height:50px;"> 
+
+        These signs are used when certain road conditions, such as loose gravel or road construction, affect the roadway surface and create potentially difficult conditions for motorists, especially motorcyclists.
       </p>
+
+      <p>
+        <!-- boldface capitzalize words?-->
+        <b>Road Construction Ahead – Detour:</b>
+        <!-- Again inline hardcoded style when you can use classes/css! -->
+
+        <img src="https://raw.githubusercontent.com/kamkisho/DMV-DL-Guide/master/assets/images/road_work.jpg" alt="Road Work" style="width:50px;height:50px;">
+
+        <img src="https://raw.githubusercontent.com/kamkisho/DMV-DL-Guide/master/assets/images/detour.jpg" alt="Detour" style="width:50px;height:50px;"> 
+
+        These signs indicate a change in the traffic pattern or route ahead. Slow down. Unusual or potentially dangerous conditions are ahead.
+
+        <p>
+          <b>Flashing Arrow Panels:</b> 
+          <img src="https://raw.githubusercontent.com/kamkisho/DMV-DL-Guide/master/assets/images/flashing_arrow.jpg" alt="Flashing Arrow" style="width:50px;height:50px;"> 
+          Large flashing arrow panels or flashing message signs in work zones direct drivers to proceed into different traffic lanes and inform them that part of the road ahead is closed.
+        </p>
     </div>
-  </div>
-</main>
+
+    <!-- Why is the first <div> not closed with a </div> -->
